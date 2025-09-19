@@ -55,7 +55,7 @@ export default function FeatureSection(){
                         <div className='space-y-2'>
                         <h3 className='font-bold'>Database</h3>
                         <p className='text-sm text-muted-foreground'>
-                            ORM usando Prisma publicados no PlanetScale.
+                            Postgre, MySQL e MariaDB.
                         </p>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ export default function FeatureSection(){
                             <div className='space-y-2'>
                             <h3 className='font-bold'>Components</h3>
                             <p className='text-sm text-muted-foreground'>
-                                UI components usando Radix UI e estilizados com TailwindCSS.
+                                UI components estilizados com TailwindCSS.
                             </p>
                             </div>
                         </div>
@@ -108,14 +108,14 @@ export default function FeatureSection(){
                         </div>
                     </div>
                 </div>
-                <Accordion type="single" collapsible className='w-full'>
+                {/* <Accordion type="single" collapsible className='w-full'>
                     <AccordionItem value='2'>
                         <AccordionTrigger>Módulo 2: Preparando o ambiente</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             Criando nosso projeto e entendo a estrutura de pastas e arquivos.
                         </AccordionContent>
                     </AccordionItem>
-                </Accordion>
+                </Accordion> */}
             </div>
         </section>
     )

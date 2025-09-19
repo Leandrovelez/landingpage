@@ -6,7 +6,7 @@ import { IntroSection } from "./_components/intro-section";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="pt-20 md:pt-18">
       <IntroSection/>
       <AboutSection/>
       <FeatureSection/>
