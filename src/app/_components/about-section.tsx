@@ -39,10 +39,9 @@ export function AboutSection(){
                             e animes. Pai de gatos!
                         </p>
                         <div className="mt-6 flex justify-center md:justify-start gap-6">
-                            <SocialLink href="" icon={InstagramIcon}/>
-                            <SocialLink href="" icon={GitHubIcon}/>
-                            <SocialLink href="" icon={LinkedInIcon}/>
-                            <SocialLink href="" icon={YoutTubeIcon}/>
+                            <SocialLink href="https://instagram.com/le.velez" target="_blank" icon={InstagramIcon}/>
+                            <SocialLink href="https://github.com/Leandrovelez" target="_blank" icon={GitHubIcon}/>
+                            <SocialLink href="https://linkedin.com/Leandrovelez" target="_blank" icon={LinkedInIcon}/>
                         </div>
                     </div>
                 </div>
