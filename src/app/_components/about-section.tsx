@@ -2,12 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { GitHubIcon, InstagramIcon, LinkedInIcon, YoutTubeIcon } from '@/components/social-icons'
 
-function SocialLink({icon: Icon, ...props}: any){
-    return(
+type SocialLinkProps = React.ComponentProps<typeof Link> & {
+    icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+};
+
+function SocialLink({ icon: Icon, ...props }: SocialLinkProps) {
+    return (
         <Link className="group -m-1 p-1" {...props}>
             <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
         </Link>
-    )
+    );
 }
 
 export function AboutSection(){
