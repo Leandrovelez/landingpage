@@ -9,13 +9,13 @@ export function FaqSection(){
     return(
         <section 
             id="faq" 
-            className=" dark:bg-transparent container space-y-6 py-8 md:py-12 lg-py-24 my-4">
+            className="bg-slate-50 dark:bg-transparent w-10/12 space-y-6 py-8 md:py-12 lg-py-24 px-8 mt-4 mb-4 rounded-lg">
             <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
                 <h2 className="font-heading text-3-xl leading-[1.1] sm:text-3xl md:text-6xl">Gostos pessoais</h2>
             </div>
             <div className='mx-auto text-center md:max-w-[58rem]'>
                 <Accordion type="single" collapsible className='w-full'>
-                    <AccordionItem value='2'>
+                    <AccordionItem value='item-1'>
                         <AccordionTrigger>Filmes</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             Inception <br/>
@@ -26,8 +26,9 @@ export function FaqSection(){
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
+                <hr />
                 <Accordion type="single" collapsible className='w-full'>
-                    <AccordionItem value='2'>
+                    <AccordionItem value='item-2'>
                         <AccordionTrigger>Livros</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             Jurassic park <br/>
@@ -37,8 +38,9 @@ export function FaqSection(){
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
+                <hr />
                 <Accordion type="single" collapsible className='w-full'>
-                    <AccordionItem value='2'>
+                    <AccordionItem value='item-3'>
                         <AccordionTrigger>Animes</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             Shingeki no kyojin <br/>
@@ -49,8 +51,9 @@ export function FaqSection(){
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
+                <hr />
                 <Accordion type="single" collapsible className='w-full'>
-                    <AccordionItem value='2'>
+                    <AccordionItem value='item-4'>
                         <AccordionTrigger>Jogos</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             Alien isolation <br/>
@@ -61,6 +64,17 @@ export function FaqSection(){
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
+                <hr />
+                <Accordion type="single" collapsible className='w-full'>
+                    <AccordionItem value='item-5'>
+                        <AccordionTrigger>Meus gatos</AccordionTrigger>
+                        <AccordionContent className='text-left'>
+                            Sophia <br/>
+                            Charlie<br/>
+                        </AccordionContent>
+                    </AccordionItem>
+                </Accordion>
+                <hr />
             </div>
         </section>
     )
