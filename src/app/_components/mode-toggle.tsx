@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 import { useTheme } from "next-themes"
-import { Moon, Sun, Laptop, Palette } from "lucide-react"
+import { Moon, Sun } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function ModeToggle(){

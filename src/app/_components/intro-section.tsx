@@ -1,4 +1,3 @@
-import { ModeToggle } from './mode-toggle'
 
 export function IntroSection(){
     return (
