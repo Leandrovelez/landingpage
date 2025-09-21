@@ -20,8 +20,8 @@ export function MeusGostosSection(){
                         <AccordionTrigger>Filmes</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             <div className='mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3'>
-                                <CardImage src="/filmes/inception.jpg" alt="Inception" title="Inception"/>
-                                <CardImage src="/filmes/kingsman.jpg" alt="Kingsman" title="Kingsman"/>
+                                <CardImage src="/filmes/inception.png" alt="Inception" title="Inception"/>
+                                <CardImage src="/filmes/kingsman.png" alt="Kingsman" title="Kingsman"/>
                                 <CardImage src="/filmes/bullet-train.webp" alt="Trem-bala" title="Trem-bala"/>
                                 <CardImage src="/filmes/sherek-2.jpg" alt="Sherek 2" title="Sherek 2"/>
                                 <CardImage src="/filmes/matrix.jpg" alt="Matrix" title="Matrix"/>
@@ -68,7 +68,7 @@ export function MeusGostosSection(){
                         <AccordionTrigger>Jogos</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             <div className='mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3'>
-                                <CardImage src="/jogos/alien_isolation_capa.png" alt="Alien isolation" title="Alien isolation"/>
+                                <CardImage src="/jogos/alien-isolation.png" alt="Alien isolation" title="Alien isolation"/>
                                 <CardImage src="/jogos/cyberpunk2077.avif" alt="Cyperpunk 2077" title="Cyperpunk 2077"/>
                                 <CardImage src="/jogos/tlou2.jpg" alt="The last of us pt 2" title="The last of us pt 2"/>
                                 <CardImage src="/jogos/halo.png" alt="Halo" title="Halo"/>
