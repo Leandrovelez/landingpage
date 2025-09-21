@@ -3,6 +3,7 @@ import { MeusGostosSection } from "./_components/meus-gostos-seqtion";
 import StacksSection from "./_components/stacks-section";
 import { IntroSection } from "./_components/intro-section";
 import { ModeToggle } from './_components/mode-toggle'
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutSection/>
       <StacksSection/>
       <MeusGostosSection/>
+      <Analytics />
     </main>
   );
 }
