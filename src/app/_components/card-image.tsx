@@ -23,7 +23,7 @@ export default function CardImage({src, alt, title, fill, ...props}: {src: strin
 
                         }`} width={800} height={800} quality={90}  {...props} />
                 }
-                <div className='space-y-2 items-center justify-center text-center mt-2'>
+                <div className='absolute space-y-2 items-center justify-center text-center mt-2 bottom-0 left-1/2 -translate-x-1/2 bg-black opacity-70 px-2 py-1  w-full'>
                     <h3 className='font-bold'>{ title }</h3>
                 </div>
             </div>
