@@ -20,12 +20,12 @@ export function MeusGostosSection(){
                         <AccordionTrigger>Filmes</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             <div className='mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3'>
-                                <CardImage src="/filmes/inception.png" alt="Inception" title="Inception"/>
-                                <CardImage src="/filmes/kingsman.png" alt="Kingsman" title="Kingsman"/>
-                                <CardImage src="/filmes/bullet-train.webp" alt="Trem-bala" title="Trem-bala"/>
-                                <CardImage src="/filmes/sherek-2.jpg" alt="Sherek 2" title="Sherek 2"/>
-                                <CardImage src="/filmes/matrix.jpg" alt="Matrix" title="Matrix"/>
-                                <CardImage src="/filmes/aliens.png" alt="Alien - O resgate" title="Alien - O resgate"/>
+                                <CardImage src="/filmes/inception.png" alt="Inception" title="Inception" fill/>
+                                <CardImage src="/filmes/kingsman.png" alt="Kingsman" title="Kingsman" fill />
+                                <CardImage src="/filmes/bullet-train.webp" alt="Trem-bala" title="Trem-bala" fill />
+                                <CardImage src="/filmes/sherek-2.jpg" alt="Sherek 2" title="Sherek 2" fill />
+                                <CardImage src="/filmes/matrix.jpg" alt="Matrix" title="Matrix" fill />
+                                <CardImage src="/filmes/aliens.png" alt="Alien - O resgate" title="Alien - O resgate" fill />
                             </div>
                         </AccordionContent>
                     </AccordionItem>
@@ -36,12 +36,12 @@ export function MeusGostosSection(){
                         <AccordionTrigger>Livros</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             <div className='mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3'>
-                                <CardImage src="/livros/jurassic-park.png" alt="Jurassic Park" title="Jurassic Park"/>
-                                <CardImage src="/livros/o-mundo-perdido.png" alt="O mundo perdido" title="O mundo perdido"/>
-                                <CardImage src="/livros/o-guia-do-mochileiro.png" alt="o guia do mochileiro das galáxias" title="o guia do mochileiro das galáxias"/>
-                                <CardImage src="/livros/surgido-das-sombras.png" alt="Alien - Surgido das sombras" title="Alien - Surgido das sombras"/>
-                                <CardImage src="/livros/mar-de-angustia.png" alt="Alien - mar de angústia" title="Alien - mar de angústia"/>
-                                <CardImage src="/livros/rio-de-sofrimento.png" alt="Alien - Rio de sofrimento" title="Alien - Rio de sofrimento"/>
+                                <CardImage src="/livros/jurassic-park.png" alt="Jurassic Park" title="Jurassic Park" fill/>
+                                <CardImage src="/livros/o-mundo-perdido.png" alt="O mundo perdido" title="O mundo perdido" fill/>
+                                <CardImage src="/livros/o-guia-do-mochileiro.png" alt="o guia do mochileiro das galáxias" title="o guia do mochileiro das galáxias" fill/>
+                                <CardImage src="/livros/surgido-das-sombras.png" alt="Alien - Surgido das sombras" title="Alien - Surgido das sombras" fill/>
+                                <CardImage src="/livros/mar-de-angustia.png" alt="Alien - mar de angústia" title="Alien - mar de angústia" fill/>
+                                <CardImage src="/livros/rio-de-sofrimento.png" alt="Alien - Rio de sofrimento" title="Alien - Rio de sofrimento" fill/>
                             </div>
                         </AccordionContent>
                     </AccordionItem>
@@ -52,12 +52,12 @@ export function MeusGostosSection(){
                         <AccordionTrigger>Animes</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             <div className='mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3'>
-                                <CardImage src="/animes/shingeki.jpg" alt="Shingeki no kyojin" title="Shingeki no kyojin"/>
-                                <CardImage src="/animes/demon_slayer.jpg" alt="Demon slayer" title="Demon slayer"/>
-                                <CardImage src="/animes/jujutsu.jpg" alt="Jujutsu kaisen" title="Jujutsu kaisen"/>
-                                <CardImage src="/animes/vinland.webp" alt="Vinland saga" title="Vinland saga"/>
-                                <CardImage src="/animes/bleach.jpg" alt="Bleach" title="Bleach"/>
-                                <CardImage src="/animes/boku-no-hero-academia.jpg" alt="Boku no hero" title="Boku no hero"/>
+                                <CardImage src="/animes/shingeki.jpg" alt="Shingeki no kyojin" title="Shingeki no kyojin" fill/>
+                                <CardImage src="/animes/demon_slayer.jpg" alt="Demon slayer" title="Demon slayer" fill/>
+                                <CardImage src="/animes/jujutsu.jpg" alt="Jujutsu kaisen" title="Jujutsu kaisen" fill/>
+                                <CardImage src="/animes/vinland.webp" alt="Vinland saga" title="Vinland saga" fill/>
+                                <CardImage src="/animes/bleach.jpg" alt="Bleach" title="Bleach" fill/>
+                                <CardImage src="/animes/boku-no-hero-academia.jpg" alt="Boku no hero" title="Boku no hero" fill/>
                             </div>
                         </AccordionContent>
                     </AccordionItem>
@@ -68,12 +68,12 @@ export function MeusGostosSection(){
                         <AccordionTrigger>Jogos</AccordionTrigger>
                         <AccordionContent className='text-left'>
                             <div className='mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3'>
-                                <CardImage src="/jogos/alien-isolation.png" alt="Alien isolation" title="Alien isolation"/>
-                                <CardImage src="/jogos/cyberpunk2077.avif" alt="Cyperpunk 2077" title="Cyperpunk 2077"/>
-                                <CardImage src="/jogos/tlou2.jpg" alt="The last of us pt 2" title="The last of us pt 2"/>
-                                <CardImage src="/jogos/halo.png" alt="Halo" title="Halo"/>
-                                <CardImage src="/jogos/shadow_of_war.png" alt="Middle earth: Shadow of war" title="Middle earth: Shadow of war"/>
-                                <CardImage src="/jogos/Escape_from_Tarkov.jpg" alt="Escape from Tarkov" title="Escape from Tarkov"/>
+                                <CardImage src="/jogos/alien-isolation.png" alt="Alien isolation" title="Alien isolation" fill/>
+                                <CardImage src="/jogos/cyberpunk2077.avif" alt="Cyperpunk 2077" title="Cyperpunk 2077" fill/>
+                                <CardImage src="/jogos/tlou2.jpg" alt="The last of us pt 2" title="The last of us pt 2" fill/>
+                                <CardImage src="/jogos/halo.png" alt="Halo" title="Halo" fill/>
+                                <CardImage src="/jogos/shadow_of_war.png" alt="Middle earth: Shadow of war" title="Middle earth: Shadow of war" fill/>
+                                <CardImage src="/jogos/Escape_from_Tarkov.jpg" alt="Escape from Tarkov" title="Escape from Tarkov" fill/>
                             </div>
                         </AccordionContent>
                     </AccordionItem>
