@@ -27,8 +27,8 @@ const fontHeading = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "The Next Dev - Full-stack",
-  description: "The Next Dev - Full-stack",
+  title: "Leandro Velez - Dev Full-stack",
+  description: "Leandro Velez - Dev Full-stack | Landing page feita com Nextjs 15, Tailwindcss e Radix-ui. Hospedada na Vercel.",
   keywords: [
     'Next.js',
     'React.js'
@@ -41,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br" suppressHydrationWarning>
       <body
         className={cn('min-h-screen bg-background font-sans antialiased',
           //fontSans.variable,

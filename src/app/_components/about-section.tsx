@@ -33,7 +33,7 @@ export function AboutSection(){
                 </div>
                 <div className="lg:order-first lg:row-span-2 text-center md:text-start pl-4">
                     <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl">
-                        @Leandrovelez
+                        Leandro Velez
                     </h1>
                     <p className="mt-6 text-base text-muted-foreground">
                         Desenvolvedor Full-stack, estusiasta de tecnologia, fã de ficcção, fantasia

@@ -1,6 +1,6 @@
 import { AboutSection } from "./_components/about-section";
-import { FaqSection } from "./_components/faq-section";
-import FeatureSection from "./_components/feature-section";
+import { MeusGostosSection } from "./_components/meus-gostos-seqtion";
+import StacksSection from "./_components/stacks-section";
 import { IntroSection } from "./_components/intro-section";
 import { ModeToggle } from './_components/mode-toggle'
 
@@ -10,8 +10,8 @@ export default function Home() {
       <ModeToggle/>
       <IntroSection/>
       <AboutSection/>
-      <FeatureSection/>
-      <FaqSection/>
+      <StacksSection/>
+      <MeusGostosSection/>
     </main>
   );
 }

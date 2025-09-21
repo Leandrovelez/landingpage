@@ -5,7 +5,7 @@ import {
     AccordionTrigger
 } from '@/components/ui/accordion'
 
-export default function FeatureSection(){
+export default function StacksSection(){
     return(
         <section 
             id="feature" 
@@ -107,14 +107,6 @@ export default function FeatureSection(){
                         </div>
                     </div>
                 </div>
-                {/* <Accordion type="single" collapsible className='w-full'>
-                    <AccordionItem value='2'>
-                        <AccordionTrigger>Módulo 2: Preparando o ambiente</AccordionTrigger>
-                        <AccordionContent className='text-left'>
-                            Criando nosso projeto e entendo a estrutura de pastas e arquivos.
-                        </AccordionContent>
-                    </AccordionItem>
-                </Accordion> */}
             </div>
         </section>
     )
